@@ -1,6 +1,0 @@
-rabbitmq:
-  URL: "amqp://admin:admin@rabbitmq:5672/"
-  EXCHANGE: "weather_exchange"
-worker:
-  retries: 3
-  interval_seconds: 3600
